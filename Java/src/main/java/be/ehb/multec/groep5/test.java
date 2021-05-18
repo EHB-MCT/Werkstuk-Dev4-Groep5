@@ -1,2 +1,4 @@
-package be.ehb.multec.groep5;public class test {
+package be.ehb.multec.groep5;
+
+public class test {
 }
