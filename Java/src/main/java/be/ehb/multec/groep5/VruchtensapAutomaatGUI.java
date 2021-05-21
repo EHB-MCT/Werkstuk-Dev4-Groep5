@@ -650,6 +650,8 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         
         menuList.setListData(data);
 
+        //test
+
         totaalPrijs.setText(prijs + " €");
         
         tabbel = jTabbedPane1.getSelectedIndex();
