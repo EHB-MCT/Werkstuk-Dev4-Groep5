@@ -41,46 +41,30 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         jLabel33 = new javax.swing.JLabel();
         jRadioButton21 = new javax.swing.JRadioButton();
         jRadioButton22 = new javax.swing.JRadioButton();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
         fruitsapPanel = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jRadioButton3 = new javax.swing.JRadioButton();
         jRadioButton4 = new javax.swing.JRadioButton();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jRadioButton5 = new javax.swing.JRadioButton();
-        jLabel7 = new javax.swing.JLabel();
         jRadioButton6 = new javax.swing.JRadioButton();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jRadioButton7 = new javax.swing.JRadioButton();
         jRadioButton8 = new javax.swing.JRadioButton();
         suikerPanel = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jRadioButton9 = new javax.swing.JRadioButton();
         jRadioButton10 = new javax.swing.JRadioButton();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
         waterPanel = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jRadioButton13 = new javax.swing.JRadioButton();
         jRadioButton14 = new javax.swing.JRadioButton();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
         formaatPanel = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jRadioButton15 = new javax.swing.JRadioButton();
         jRadioButton16 = new javax.swing.JRadioButton();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
         choisePanell = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
         jRadioButton17 = new javax.swing.JRadioButton();
         jRadioButton18 = new javax.swing.JRadioButton();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
         totaalPanel = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -122,10 +106,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel34.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruit.jpg")); // NOI18N
-
-        jLabel35.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         javax.swing.GroupLayout firstPanel3Layout = new javax.swing.GroupLayout(firstPanel3);
         firstPanel3.setLayout(firstPanel3Layout);
         firstPanel3Layout.setHorizontalGroup(
@@ -134,15 +114,11 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(firstPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 225, Short.MAX_VALUE)
-                        .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(firstPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(firstPanel3Layout.createSequentialGroup()
                         .addComponent(jRadioButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 170, Short.MAX_VALUE)
                         .addComponent(jRadioButton22)))
                 .addContainerGap())
         );
@@ -151,11 +127,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(firstPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(69, 69, 69)
+                .addGap(249, 249, 249)
                 .addGroup(firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jRadioButton22)
                     .addComponent(jRadioButton21))
@@ -193,10 +165,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruit.jpg")); // NOI18N
-
-        jLabel6.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         buttonGroup2.add(jRadioButton5);
         jRadioButton5.setFont(new java.awt.Font("Pixel Emulator", 0, 14)); // NOI18N
         jRadioButton5.setText("ananassap");
@@ -207,8 +175,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         buttonGroup2.add(jRadioButton6);
         jRadioButton6.setFont(new java.awt.Font("Pixel Emulator", 0, 14)); // NOI18N
         jRadioButton6.setText("appelsap");
@@ -218,12 +184,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 jRadioButton6ActionPerformed(evt);
             }
         });
-
-        jLabel8.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruit.jpg")); // NOI18N
-
-        jLabel9.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruit.jpg")); // NOI18N
-
-        jLabel10.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruit.jpg")); // NOI18N
 
         buttonGroup2.add(jRadioButton7);
         jRadioButton7.setFont(new java.awt.Font("Pixel Emulator", 0, 14)); // NOI18N
@@ -254,57 +214,36 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(fruitsapPanelLayout.createSequentialGroup()
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(fruitsapPanelLayout.createSequentialGroup()
                         .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jRadioButton3)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jRadioButton5)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jRadioButton5))
                         .addGap(32, 32, 32)
                         .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(fruitsapPanelLayout.createSequentialGroup()
-                                .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jRadioButton4))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jRadioButton6)
-                                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jRadioButton4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                                .addComponent(jRadioButton6)
+                                .addGap(49, 49, 49))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, fruitsapPanelLayout.createSequentialGroup()
-                                .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jRadioButton8))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jRadioButton7)
-                                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addContainerGap())
+                                .addComponent(jRadioButton8)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                                .addComponent(jRadioButton7)
+                                .addGap(57, 57, 57))))))
         );
         fruitsapPanelLayout.setVerticalGroup(
             fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(fruitsapPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
+                .addGap(187, 187, 187)
                 .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(fruitsapPanelLayout.createSequentialGroup()
-                        .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jRadioButton3)
-                                .addComponent(jRadioButton4))
-                            .addComponent(jRadioButton6)))
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                    .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jRadioButton3)
+                        .addComponent(jRadioButton4))
+                    .addComponent(jRadioButton6))
+                .addGap(186, 186, 186)
                 .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(fruitsapPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jRadioButton7)
@@ -342,10 +281,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\sans-sucre.jpg")); // NOI18N
-
-        jLabel13.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         javax.swing.GroupLayout suikerPanelLayout = new javax.swing.GroupLayout(suikerPanel);
         suikerPanel.setLayout(suikerPanelLayout);
         suikerPanelLayout.setHorizontalGroup(
@@ -354,16 +289,12 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(suikerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(suikerPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(suikerPanelLayout.createSequentialGroup()
                         .addComponent(jRadioButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jRadioButton10))
                     .addGroup(suikerPanelLayout.createSequentialGroup()
                         .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 216, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         suikerPanelLayout.setVerticalGroup(
@@ -371,11 +302,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(suikerPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(suikerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(57, 57, 57)
+                .addGap(237, 237, 237)
                 .addGroup(suikerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jRadioButton9)
                     .addComponent(jRadioButton10))
@@ -410,10 +337,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel18.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\sans-sucre.jpg")); // NOI18N
-
-        jLabel19.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         javax.swing.GroupLayout waterPanelLayout = new javax.swing.GroupLayout(waterPanel);
         waterPanel.setLayout(waterPanelLayout);
         waterPanelLayout.setHorizontalGroup(
@@ -422,12 +345,8 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(waterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(waterPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(waterPanelLayout.createSequentialGroup()
                         .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 150, Short.MAX_VALUE))
                     .addGroup(waterPanelLayout.createSequentialGroup()
                         .addComponent(jRadioButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -439,11 +358,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(waterPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(waterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(62, 62, 62)
+                .addGap(242, 242, 242)
                 .addGroup(waterPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jRadioButton14)
                     .addComponent(jRadioButton13))
@@ -479,10 +394,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\sans-sucre.jpg")); // NOI18N
-
-        jLabel22.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         javax.swing.GroupLayout formaatPanelLayout = new javax.swing.GroupLayout(formaatPanel);
         formaatPanel.setLayout(formaatPanelLayout);
         formaatPanelLayout.setHorizontalGroup(
@@ -491,12 +402,8 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(formaatPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(formaatPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(formaatPanelLayout.createSequentialGroup()
                         .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 100, Short.MAX_VALUE))
+                        .addGap(0, 104, Short.MAX_VALUE))
                     .addGroup(formaatPanelLayout.createSequentialGroup()
                         .addComponent(jRadioButton15)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -508,11 +415,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(formaatPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(formaatPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(49, 49, 49)
+                .addGap(229, 229, 229)
                 .addGroup(formaatPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jRadioButton15)
                     .addComponent(jRadioButton16))
@@ -548,10 +451,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel24.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\kassa.png")); // NOI18N
-
-        jLabel25.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
-
         javax.swing.GroupLayout choisePanellLayout = new javax.swing.GroupLayout(choisePanell);
         choisePanell.setLayout(choisePanellLayout);
         choisePanellLayout.setHorizontalGroup(
@@ -563,15 +462,9 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                         .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, choisePanellLayout.createSequentialGroup()
-                        .addGroup(choisePanellLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(choisePanellLayout.createSequentialGroup()
-                                .addComponent(jRadioButton17)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jRadioButton18))
-                            .addGroup(choisePanellLayout.createSequentialGroup()
-                                .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jRadioButton17)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jRadioButton18)
                         .addGap(21, 21, 21))))
         );
         choisePanellLayout.setVerticalGroup(
@@ -579,11 +472,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(choisePanellLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(30, 30, 30)
-                .addGroup(choisePanellLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(56, 56, 56)
+                .addGap(236, 236, 236)
                 .addGroup(choisePanellLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jRadioButton18)
                     .addComponent(jRadioButton17))
@@ -617,17 +506,21 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(totaalPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
-                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(totaalPanelLayout.createSequentialGroup()
+                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
+                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(7, 7, 7)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(totaalPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(25, 25, 25))))
         );
         totaalPanelLayout.setVerticalGroup(
             totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -638,11 +531,14 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel14)
                     .addComponent(jLabel36))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 326, Short.MAX_VALUE)
-                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel16)
-                    .addComponent(jLabel15))
-                .addGap(40, 40, 40))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 213, Short.MAX_VALUE)
+                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel16)
+                        .addGap(144, 144, 144))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
+                        .addComponent(jLabel15)
+                        .addGap(153, 153, 153))))
         );
 
         jTabbedPane1.addTab("tab7", totaalPanel);
@@ -682,13 +578,14 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nextButtonPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(20, Short.MAX_VALUE))
+                    .addComponent(nextButtonPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 513, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(nextButtonPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -703,8 +600,10 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private void nextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextBtnActionPerformed
         // TODO add your handling code here:
         
+        
         tabbel = jTabbedPane1.getSelectedIndex();
         jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
+        
     }//GEN-LAST:event_nextBtnActionPerformed
 
     private void jRadioButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton18ActionPerformed
@@ -769,6 +668,10 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
+        
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
+        
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     /**
@@ -820,33 +723,17 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.JPanel firstPanel3;
     private javax.swing.JPanel formaatPanel;
     private javax.swing.JPanel fruitsapPanel;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JRadioButton jRadioButton10;
     private javax.swing.JRadioButton jRadioButton13;
     private javax.swing.JRadioButton jRadioButton14;
