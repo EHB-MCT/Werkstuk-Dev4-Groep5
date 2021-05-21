@@ -86,6 +86,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
         nextButtonPanel = new javax.swing.JPanel();
         nextBtn = new javax.swing.JButton();
 
@@ -547,7 +548,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel24.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\sans-sucre.jpg")); // NOI18N
+        jLabel24.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\kassa.png")); // NOI18N
 
         jLabel25.setIcon(new javax.swing.ImageIcon("E:\\Document.EHB\\6de semester\\Dev IV\\Werkstuk\\Werkstuk-Dev4-Groep5\\Java\\src\\main\\java\\be\\ehb\\multec\\groep5\\image\\fruitsap.png")); // NOI18N
 
@@ -583,9 +584,9 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                     .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(56, 56, 56)
-                .addGroup(choisePanellLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton17)
-                    .addComponent(jRadioButton18))
+                .addGroup(choisePanellLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadioButton18)
+                    .addComponent(jRadioButton17))
                 .addContainerGap(167, Short.MAX_VALUE))
         );
 
@@ -605,7 +606,10 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         jLabel15.setText("€");
 
         jLabel16.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
-        jLabel16.setText("Tottal");
+        jLabel16.setText("Totaal");
+
+        jLabel36.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
+        jLabel36.setText("prijs");
 
         javax.swing.GroupLayout totaalPanelLayout = new javax.swing.GroupLayout(totaalPanel);
         totaalPanel.setLayout(totaalPanelLayout);
@@ -615,11 +619,14 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         totaalPanelLayout.setVerticalGroup(
@@ -628,8 +635,10 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jLabel14)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel14)
+                    .addComponent(jLabel36))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 326, Short.MAX_VALUE)
                 .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel16)
                     .addComponent(jLabel15))
@@ -808,13 +817,9 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup6;
     private java.awt.Canvas canvas1;
     private javax.swing.JPanel choisePanell;
-    private javax.swing.JPanel firstPanel;
-    private javax.swing.JPanel firstPanel1;
-    private javax.swing.JPanel firstPanel2;
     private javax.swing.JPanel firstPanel3;
     private javax.swing.JPanel formaatPanel;
     private javax.swing.JPanel fruitsapPanel;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -825,7 +830,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
@@ -833,35 +837,23 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton10;
-    private javax.swing.JRadioButton jRadioButton11;
-    private javax.swing.JRadioButton jRadioButton12;
     private javax.swing.JRadioButton jRadioButton13;
     private javax.swing.JRadioButton jRadioButton14;
     private javax.swing.JRadioButton jRadioButton15;
     private javax.swing.JRadioButton jRadioButton16;
     private javax.swing.JRadioButton jRadioButton17;
     private javax.swing.JRadioButton jRadioButton18;
-    private javax.swing.JRadioButton jRadioButton19;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton20;
     private javax.swing.JRadioButton jRadioButton21;
     private javax.swing.JRadioButton jRadioButton22;
     private javax.swing.JRadioButton jRadioButton3;
