@@ -2,6 +2,13 @@ package be.ehb.multec.groep5;
 
 public class Main {
 
-    testGui testGui = new testGui();
+
+    public  static void main(String[] args)
+    {
+
+        System.out.println("test AHHHH");
+
+    }
+
 
 }

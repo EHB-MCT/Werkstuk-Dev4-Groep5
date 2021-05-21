@@ -1,4 +1,22 @@
-be/ehb/multec/groep5/testGui.java
- be.ehb.multec.groep5.testGui
 be/ehb/multec/groep5/Main.java
  be.ehb.multec.groep5.Main
+be/ehb/multec/groep5/VruchtensapAutomaatGUI.java
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$1
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$10
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$11
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$12
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$13
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$14
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$15
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$16
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$17
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$18
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$2
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$3
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$4
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$5
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$6
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$7
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$8
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$9
