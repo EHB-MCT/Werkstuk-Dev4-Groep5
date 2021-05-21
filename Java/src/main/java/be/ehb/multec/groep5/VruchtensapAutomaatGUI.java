@@ -492,7 +492,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         jLabel14.setText("Menu");
 
         jLabel15.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
-        jLabel15.setText("€");
+        jLabel15.setText("â‚¬");
 
         jLabel16.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
         jLabel16.setText("Totaal");
@@ -597,6 +597,13 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     public int tabbel = 0;
     
+    public String commande;
+    public String fruitsap;
+    public boolean suiker;
+    public boolean bruiswater;
+    public int formaat;
+    public boolean kassa;
+    
     private void nextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextBtnActionPerformed
         // TODO add your handling code here:
         
@@ -612,6 +619,14 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton17ActionPerformed
         // TODO add your handling code here:
+        kassa = true;
+
+        System.out.println("commande: "+ commande);
+         System.out.println("fruitsap: "+fruitsap);
+          System.out.println("suiker: "+suiker);
+           System.out.println("bruiswater: "+bruiswater);
+            System.out.println("formaat: "+formaat);
+             System.out.println("kassa: "+kassa);
     }//GEN-LAST:event_jRadioButton17ActionPerformed
 
     private void jRadioButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton16ActionPerformed
@@ -620,6 +635,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
         // TODO add your handling code here:
+        formaat = 250;
     }//GEN-LAST:event_jRadioButton15ActionPerformed
 
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
@@ -628,6 +644,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton13ActionPerformed
         // TODO add your handling code here:
+        bruiswater = false;
     }//GEN-LAST:event_jRadioButton13ActionPerformed
 
     private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
@@ -636,6 +653,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
         // TODO add your handling code here:
+        suiker = true;
     }//GEN-LAST:event_jRadioButton9ActionPerformed
 
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
@@ -644,6 +662,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
         // TODO add your handling code here:
+        fruitsap = "cocosap";
     }//GEN-LAST:event_jRadioButton7ActionPerformed
 
     private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
@@ -656,6 +675,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
 
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
         // TODO add your handling code here:
+        fruitsap = "citroensap";
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
@@ -671,6 +691,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         
         tabbel = jTabbedPane1.getSelectedIndex();
         jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
+        commande = "Fruitsap";
         
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
