@@ -12,6 +12,7 @@ be/ehb/multec/groep5/VruchtensapAutomaatGUI.java
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$16
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$17
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$18
+ be.ehb.multec.groep5.VruchtensapAutomaatGUI$19
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$2
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$3
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$4

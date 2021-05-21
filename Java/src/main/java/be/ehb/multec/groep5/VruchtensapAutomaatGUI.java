@@ -5,6 +5,9 @@
  */
 package be.ehb.multec.groep5;
 
+import javax.swing.JLabel;
+import javax.swing.JList;
+
 /**
  *
  * @author Yassi
@@ -36,6 +39,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         buttonGroup4 = new javax.swing.ButtonGroup();
         buttonGroup5 = new javax.swing.ButtonGroup();
         buttonGroup6 = new javax.swing.ButtonGroup();
+        buttonGroup7 = new javax.swing.ButtonGroup();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         firstPanel3 = new javax.swing.JPanel();
         jLabel33 = new javax.swing.JLabel();
@@ -68,14 +72,15 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         totaalPanel = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
+        totaalPrijs = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        menuList = new javax.swing.JList<>();
         nextButtonPanel = new javax.swing.JPanel();
         nextBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(600, 600));
         setSize(new java.awt.Dimension(700, 700));
 
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(500, 500));
@@ -110,13 +115,13 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         firstPanel3.setLayout(firstPanel3Layout);
         firstPanel3Layout.setHorizontalGroup(
             firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(firstPanel3Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, firstPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(firstPanel3Layout.createSequentialGroup()
+                .addGroup(firstPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, firstPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(firstPanel3Layout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, firstPanel3Layout.createSequentialGroup()
                         .addComponent(jRadioButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 170, Short.MAX_VALUE)
                         .addComponent(jRadioButton22)))
@@ -486,19 +491,27 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         totaalPanel.setPreferredSize(new java.awt.Dimension(500, 500));
 
         jLabel26.setFont(new java.awt.Font("Pixel Emulator", 1, 18)); // NOI18N
-        jLabel26.setText("betalen of een ander sapje bestellen?");
+        jLabel26.setText("te betalen");
 
         jLabel14.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
         jLabel14.setText("Menu");
 
-        jLabel15.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
-        jLabel15.setText("€");
+        totaalPrijs.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
+        totaalPrijs.setText("ï¿½");
 
         jLabel16.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
         jLabel16.setText("Totaal");
 
         jLabel36.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
         jLabel36.setText("prijs");
+
+        menuList.setFont(new java.awt.Font("Nikkyou Sans", 0, 14)); // NOI18N
+        menuList.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jScrollPane2.setViewportView(menuList);
 
         javax.swing.GroupLayout totaalPanelLayout = new javax.swing.GroupLayout(totaalPanel);
         totaalPanel.setLayout(totaalPanelLayout);
@@ -507,20 +520,21 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
             .addGroup(totaalPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(totaalPanelLayout.createSequentialGroup()
-                        .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
-                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(7, 7, 7)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(totaalPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(25, 25, 25))))
+                    .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 536, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
+                            .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(totaalPanelLayout.createSequentialGroup()
+                                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(totaalPrijs, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(totaalPanelLayout.createSequentialGroup()
+                                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGap(7, 7, 7)))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 529, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         totaalPanelLayout.setVerticalGroup(
             totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -531,14 +545,13 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel14)
                     .addComponent(jLabel36))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 213, Short.MAX_VALUE)
-                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel16)
-                        .addGap(144, 144, 144))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, totaalPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel15)
-                        .addGap(153, 153, 153))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 276, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addGroup(totaalPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(totaalPrijs)
+                    .addComponent(jLabel16))
+                .addGap(61, 61, 61))
         );
 
         jTabbedPane1.addTab("tab7", totaalPanel);
@@ -580,7 +593,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(nextButtonPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 550, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -595,14 +608,17 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+
     public int tabbel = 0;
     
-    public String commande;
+    public String bestelling;
     public String fruitsap;
     public boolean suiker;
     public boolean bruiswater;
     public int formaat;
+    public double prijs;
     public boolean kassa;
+    
     
     private void nextBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextBtnActionPerformed
         // TODO add your handling code here:
@@ -616,83 +632,144 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private void jRadioButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton18ActionPerformed
         // TODO add your handling code here:
          jTabbedPane1.setSelectedIndex(0);
+
     }//GEN-LAST:event_jRadioButton18ActionPerformed
 
     private void jRadioButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton17ActionPerformed
         // TODO add your handling code here:
         kassa = true;
 
-        System.out.println("commande: "+ commande);
-         System.out.println("fruitsap: "+fruitsap);
-          System.out.println("suiker: "+suiker);
-           System.out.println("bruiswater: "+bruiswater);
-            System.out.println("formaat: "+formaat);
-             System.out.println("kassa: "+kassa);
+
+        String [] data = {
+                fruitsap,"suiker: " + suiker,
+                "bruiswater: "+bruiswater,
+                "formaat: "+formaat + "ml",
+                prijs +" €","kassa: "+kassa
+        };
+        
+        
+        menuList.setListData(data);
+        
+        totaalPrijs.setText(prijs + "€");
+        
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
+        
+        
+        
+        
+
     }//GEN-LAST:event_jRadioButton17ActionPerformed
 
     private void jRadioButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton16ActionPerformed
         // TODO add your handling code here:
         formaat = 250;
+        prijs += 1;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton16ActionPerformed
 
     private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
         // TODO add your handling code here:
         formaat = 500;
+        prijs += 2;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton15ActionPerformed
 
     private void jRadioButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton14ActionPerformed
         // TODO add your handling code here:
         bruiswater = true;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton14ActionPerformed
 
     private void jRadioButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton13ActionPerformed
         // TODO add your handling code here:
         bruiswater = false;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton13ActionPerformed
 
     private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
         // TODO add your handling code here:
         suiker = false;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton10ActionPerformed
 
     private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
         // TODO add your handling code here:
         suiker = true;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton9ActionPerformed
 
     private void jRadioButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton8ActionPerformed
         // TODO add your handling code here:
         fruitsap = "perziksap";
+        prijs += 2;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton8ActionPerformed
 
     private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
         // TODO add your handling code here:
         fruitsap = "cocosap";
+        prijs += 3;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton7ActionPerformed
 
     private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
         // TODO add your handling code here:
         fruitsap = "appelsap";
+        prijs += 1;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton6ActionPerformed
 
     private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
         // TODO add your handling code here:
         fruitsap = "ananassap";
-        
+        prijs += 2.50;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton5ActionPerformed
 
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
         // TODO add your handling code here:
         fruitsap = "citroensap";
+        prijs += 1;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton4ActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
         // TODO add your handling code here:
         fruitsap = "Sinaasapelsap";
+        prijs += 2;
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton3ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
         // TODO add your handling code here:
+
+        tabbel = jTabbedPane1.getSelectedIndex();
+        jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
@@ -700,7 +777,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         
         tabbel = jTabbedPane1.getSelectedIndex();
         jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);
-        commande = "Fruitsap";
+        bestelling = "Fruitsap";
         
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
@@ -741,6 +818,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         });
     }
 
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
@@ -748,6 +826,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup4;
     private javax.swing.ButtonGroup buttonGroup5;
     private javax.swing.ButtonGroup buttonGroup6;
+    private javax.swing.ButtonGroup buttonGroup7;
     private java.awt.Canvas canvas1;
     private javax.swing.JPanel choisePanell;
     private javax.swing.JPanel firstPanel3;
@@ -755,7 +834,6 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.JPanel fruitsapPanel;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel20;
@@ -780,11 +858,14 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton7;
     private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JList<String> menuList;
     private javax.swing.JButton nextBtn;
     private javax.swing.JPanel nextButtonPanel;
     private javax.swing.JPanel suikerPanel;
     private javax.swing.JPanel totaalPanel;
+    private javax.swing.JLabel totaalPrijs;
     private javax.swing.JPanel waterPanel;
     // End of variables declaration//GEN-END:variables
 }
