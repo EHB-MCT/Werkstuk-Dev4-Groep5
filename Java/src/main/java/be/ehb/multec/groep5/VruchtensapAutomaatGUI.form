@@ -758,7 +758,7 @@
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel16" min="-2" pref="100" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="totaalPrijs" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="totaalPrijsLbl" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel14" min="-2" pref="93" max="-2" attributes="0"/>
@@ -789,7 +789,7 @@
                       <Component id="jScrollPane2" pref="276" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="totaalPrijs" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="totaalPrijsLbl" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
@@ -814,7 +814,7 @@
                 <Property name="text" type="java.lang.String" value="Menu"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="totaalPrijs">
+            <Component class="javax.swing.JLabel" name="totaalPrijsLbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Pixel Emulator" size="18" style="0"/>

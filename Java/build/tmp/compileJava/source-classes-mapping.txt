@@ -1,5 +1,33 @@
+be/ehb/multec/groep5/Extra/PlatWater.java
+ be.ehb.multec.groep5.Extra.PlatWater
+be/ehb/multec/groep5/sap/Citroensap.java
+ be.ehb.multec.groep5.sap.Citroensap
+be/ehb/multec/groep5/sap/Sinaasapelsap.java
+ be.ehb.multec.groep5.sap.Sinaasapelsap
+be/ehb/multec/groep5/sap/Cocosap.java
+ be.ehb.multec.groep5.sap.Cocosap
+be/ehb/multec/groep5/Extra/GrootFormaat.java
+ be.ehb.multec.groep5.Extra.GrootFormaat
+be/ehb/multec/groep5/Extra/ZonderSuiker.java
+ be.ehb.multec.groep5.Extra.ZonderSuiker
+be/ehb/multec/groep5/Extra/Bruiswater.java
+ be.ehb.multec.groep5.Extra.Bruiswater
+be/ehb/multec/groep5/CondimentDecorator.java
+ be.ehb.multec.groep5.CondimentDecorator
+be/ehb/multec/groep5/Fruitsap.java
+ be.ehb.multec.groep5.Fruitsap
+be/ehb/multec/groep5/sap/Appelsap.java
+ be.ehb.multec.groep5.sap.Appelsap
 be/ehb/multec/groep5/Main.java
  be.ehb.multec.groep5.Main
+be/ehb/multec/groep5/sap/Ananassap.java
+ be.ehb.multec.groep5.sap.Ananassap
+be/ehb/multec/groep5/Extra/KleinFormaat.java
+ be.ehb.multec.groep5.Extra.KleinFormaat
+be/ehb/multec/groep5/sap/Perziksap.java
+ be.ehb.multec.groep5.sap.Perziksap
+be/ehb/multec/groep5/Extra/Suiker.java
+ be.ehb.multec.groep5.Extra.Suiker
 be/ehb/multec/groep5/VruchtensapAutomaatGUI.java
  be.ehb.multec.groep5.VruchtensapAutomaatGUI
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$1

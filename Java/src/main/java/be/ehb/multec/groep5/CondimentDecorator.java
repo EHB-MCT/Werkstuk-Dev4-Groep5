@@ -1,13 +1,15 @@
-package decorator;
+package be.ehb.multec.groep5;
 
-public abstract class CondimentDecorator extends Beverage {
-    protected Beverage beverage;
+public abstract class CondimentDecorator extends Fruitsap {
+    protected Fruitsap fruitsap;
 
-    protected CondimentDecorator(Beverage beverage) {
-        this.beverage = beverage;
+    protected CondimentDecorator(Fruitsap fruitsap) {
+        this.fruitsap = fruitsap;
     }
 
+    protected int formaat(){ return fruitsap.formaat();}
+
     protected double cost() {
-        return beverage.cost();
+        return fruitsap.cost();
     }
 }

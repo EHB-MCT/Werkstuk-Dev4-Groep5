@@ -1,29 +1,17 @@
-package be.ehb.multec.groep5;
+package be.ehb.multec.groep5.sap;
 
-public class Cocosap extends Fruitsap{
+import be.ehb.multec.groep5.Fruitsap;
+
+public class Cocosap extends Fruitsap {
 
     public Cocosap() {
         setFruitsapName("CocoSap");
     }
 
-    /*protected String naam(){
-        return "coco";
-    }*/
-
-    @Override
-    protected boolean bruisend() {
-        return false;
+    protected int formaat() {
+        return 0;
     }
 
-    @Override
-    protected boolean suiker() {
-        return false;
-    }
-
-    @Override
-    protected double formaat() {
-        return 200;
-    }
 
     @Override
     protected double cost() {
