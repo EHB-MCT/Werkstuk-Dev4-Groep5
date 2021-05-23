@@ -11,7 +11,13 @@ public class Menu {
     public int formaat;
     public double prijs;
 
+private static Menu menuInstance = new Menu();
 
+    private Menu(){}
+    public static Menu getInstance()
+    {
+        return menuInstance;
+    }
 
     public String getBestelling() {
         return bestelling;

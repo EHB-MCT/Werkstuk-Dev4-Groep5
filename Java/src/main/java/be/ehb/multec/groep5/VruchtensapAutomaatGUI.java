@@ -501,7 +501,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         jLabel14.setText("Menu");
 
         totaalPrijsLbl.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
-        totaalPrijsLbl.setText("€");
+        totaalPrijsLbl.setText("â‚¬");
 
         jLabel16.setFont(new java.awt.Font("Pixel Emulator", 0, 18)); // NOI18N
         jLabel16.setText("Totaal");
@@ -629,7 +629,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
     public double totaalPrijs;
 
 
-    Menu menu = new Menu();
+    public static Menu menu = Menu.getInstance();
 
     
     
@@ -656,7 +656,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 menu.fruitsapName, "suiker: " + menu.suiker,
                 "water: " + menu.water,
                 "formaat: " + menu.formaat + "ml",
-                menu.prijs + " €", "------------"
+                menu.prijs + "â‚¬", "------------"
         };
 
         for(String item : eenMenu){
@@ -691,7 +691,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
                 menu.fruitsapName, "suiker: " + menu.suiker,
                 "water: " + menu.water,
                 "formaat: " + menu.formaat + "ml",
-                menu.prijs + " €"
+                menu.prijs + " â‚¬"
         };
 
         for(String item : eenMenu){
@@ -708,7 +708,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         
         totaalPrijs += Math.round(menu.prijs*100.0)/100.0;
 
-        totaalPrijsLbl.setText(totaalPrijs + " €");
+        totaalPrijsLbl.setText(totaalPrijs + "â‚¬");
 
         mainSap.start(menu.suiker, menu.water);
         
