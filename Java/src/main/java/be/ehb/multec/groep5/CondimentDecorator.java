@@ -9,7 +9,7 @@ public abstract class CondimentDecorator extends Fruitsap {
 
     protected int formaat(){ return fruitsap.formaat();}
 
-    protected double cost() {
+    public double cost() {
         return fruitsap.cost();
     }
 }

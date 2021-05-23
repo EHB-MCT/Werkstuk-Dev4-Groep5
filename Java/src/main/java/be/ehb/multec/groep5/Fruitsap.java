@@ -8,12 +8,12 @@ public abstract class Fruitsap {
         this.fruitsapName = fruitsapName;
     }
 
-    protected String getFruitsapName() {
+    public String getFruitsapName() {
         return fruitsapName;
     }
 
     protected abstract int formaat();
 
-    protected abstract double cost();
+    public abstract double cost();
 
 }

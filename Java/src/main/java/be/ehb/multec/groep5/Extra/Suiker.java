@@ -11,7 +11,7 @@ public class Suiker extends CondimentDecorator {
     }
 
     @Override
-    protected double cost(){
+    public double cost(){
         return super.cost() + 0.10;
     }
 

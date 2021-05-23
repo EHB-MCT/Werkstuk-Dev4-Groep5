@@ -15,7 +15,7 @@ public class GrootFormaat extends CondimentDecorator {
     }
 
     @Override
-    protected double cost() {
+    public double cost() {
         return super.cost() + 2.00;
     }
 

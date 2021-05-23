@@ -14,7 +14,7 @@ public class Sinaasapelsap extends Fruitsap {
     }
 
     @Override
-    protected double cost() {
+    public double cost() {
         return 0.50;
     }
 }
