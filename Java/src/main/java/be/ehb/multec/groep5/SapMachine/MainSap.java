@@ -3,30 +3,56 @@ package be.ehb.multec.groep5.SapMachine;
 public abstract class MainSap {
 
     //template method
-   final void start(){
-       //fruit mixen
-       fruitVoorbereiden();
+    public final void start(String suiker,String bruis){
+
         //Water WaterInvullen
         waterInvullen();
         //suiker
-        suikerToevoegen();
+        suikerToevoegen(suiker);
         //bruis Water
-        bruisWater();   
-   } 
-   
+        bruisWater(bruis);
+        //fruit mixen
+        fruitVoorbereiden();
+   }
+
     abstract void fruitVoorbereiden();
-    
+
         //Water WaterInvullen
     public void waterInvullen() {
+        System.out.println("--------------------------------------");
+
         System.out.println("water aan de tank toevoegen");
     }
+
     //suiker
-    public void suikerToevoegen() {
-        System.out.println("indien nodig suiker toevoegen");
+    public void suikerToevoegen(String suiker) {
+
+        if(suiker == "met Suiker") {
+
+            System.out.println("suiker toevoegen");
+
+        }else {
+
+            System.out.println("geen suiker toevoegen");
+
+        }
     }
+
     //bruis Water
-    public void bruisWater() {
-        System.out.println("voeg zo nodig bruiswater toe");
-    }
+
+
+        public void bruisWater(String bruis) {
+            if(bruis == "bruiswater"){
+
+            System.out.println("co2 cilinder voorbereiden" +
+                    "Bubbels toevoegen aan water");
+
+            }else{
+
+                System.out.println("gewoon plat water gebruiken");
+
+            }
+        }
+
     
 }

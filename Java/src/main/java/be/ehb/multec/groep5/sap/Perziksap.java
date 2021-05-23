@@ -16,6 +16,6 @@ public class Perziksap extends Fruitsap {
 
     @Override
     protected double cost() {
-        return 2.00;
+        return 1.00;
     }
 }

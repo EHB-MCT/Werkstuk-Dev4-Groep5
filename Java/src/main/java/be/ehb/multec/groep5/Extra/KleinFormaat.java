@@ -7,7 +7,7 @@ public class KleinFormaat extends CondimentDecorator {
 
     public KleinFormaat(Fruitsap fruitsap) {
         super(fruitsap);
-        super.setFruitsapName("Groot Formaat");
+        super.setFruitsapName("Klein Formaat");
     }
 
     protected int formaat(){

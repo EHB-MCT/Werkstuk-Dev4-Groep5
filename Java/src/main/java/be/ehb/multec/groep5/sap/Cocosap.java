@@ -15,6 +15,6 @@ public class Cocosap extends Fruitsap {
 
     @Override
     protected double cost() {
-        return 1.25;
+        return 0.80;
     }
 }

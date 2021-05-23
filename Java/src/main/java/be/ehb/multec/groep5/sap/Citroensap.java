@@ -15,6 +15,6 @@ public class Citroensap extends Fruitsap {
 
     @Override
     protected double cost() {
-        return 2.05;
+        return 1.05;
     }
 }

@@ -16,6 +16,6 @@ public class Ananassap extends Fruitsap {
 
     @Override
     protected double cost() {
-        return 2.50;
+        return 1.25;
     }
 }
