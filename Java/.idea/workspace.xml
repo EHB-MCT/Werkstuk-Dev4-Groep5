@@ -5,66 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2167cb1b-7167-4544-8f91-1d5ec84f169e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/AnanaFruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/AppelFruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/PerzikFruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/SinaasapelFruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/nb-cache/subprojects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/nb-cache/subprojects.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/Bruiswater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/Bruiswater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/KleinFormaat.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/KleinFormaat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/CitroenFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/CitroenFruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/CocoFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/CocoFruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/MainSap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/SapMachine/MainSap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Ananassap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Ananassap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Appelsap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Appelsap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Citroensap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Citroensap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Cocosap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Cocosap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Perziksap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Perziksap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Sinaasapelsap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/sap/Sinaasapelsap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/Bruiswater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/Bruiswater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/KleinFormaat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/KleinFormaat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CitroenFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CitroenFruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CocoFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CocoFruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/MainSap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/MainSap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/VruchtensapAutomaatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/VruchtensapAutomaatGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Ananassap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Ananassap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Appelsap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Appelsap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Citroensap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Citroensap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Cocosap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Cocosap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Perziksap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Perziksap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Sinaasapelsap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/sap/Sinaasapelsap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/ananassap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/appelsap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/citroensap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/fruit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/fruitsap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/kassa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/perziksap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/sans-sucre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/sinaasappelsap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/image/téléchargement (1).jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

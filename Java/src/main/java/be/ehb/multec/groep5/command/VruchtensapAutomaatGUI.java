@@ -662,6 +662,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         for(String item : eenMenu){
 
             dataMenu.add(item);
+
         }
 
 
