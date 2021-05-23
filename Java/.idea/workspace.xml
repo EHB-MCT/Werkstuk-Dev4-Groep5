@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2167cb1b-7167-4544-8f91-1d5ec84f169e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CitroenFruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/CocoFruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/SapMachine/MainSap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/Bruiswater.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/Extra/Bruiswater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/ehb/multec/groep5/VruchtensapAutomaatGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/Bruiswater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/Extra/Bruiswater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/VruchtensapAutomaatGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/ehb/multec/groep5/VruchtensapAutomaatGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

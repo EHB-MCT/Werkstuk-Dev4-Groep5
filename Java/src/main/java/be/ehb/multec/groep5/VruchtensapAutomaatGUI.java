@@ -779,7 +779,7 @@ public class VruchtensapAutomaatGUI extends javax.swing.JFrame {
         fruitsap = new Suiker(fruitsap);
 
         suiker = fruitsap.getFruitsapName();
-        prijs = fruitsap.cost();
+        prijs += fruitsap.cost();
 
         tabbel = jTabbedPane1.getSelectedIndex();
         jTabbedPane1.setSelectedIndex(tabbel == jTabbedPane1.getTabCount()-1 ? 0 : tabbel + 1);

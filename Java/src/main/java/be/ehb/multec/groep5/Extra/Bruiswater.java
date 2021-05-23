@@ -7,7 +7,7 @@ public class Bruiswater extends CondimentDecorator {
 
     public Bruiswater(Fruitsap fruitsap) {
         super(fruitsap);
-        super.setFruitsapName(", bruiswater");
+        super.setFruitsapName(" bruiswater");
     }
     @Override
     protected double cost() {
