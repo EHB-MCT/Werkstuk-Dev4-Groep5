@@ -14,6 +14,6 @@ public class Appelsap extends Fruitsap {
 
     @Override
     public double cost() {
-        return .50;
+        return 0.50;
     }
 }

@@ -1,17 +1,17 @@
-be/ehb/multec/groep5/SapMachine/SinaasapelFruit.java
- be.ehb.multec.groep5.SapMachine.SinaasapelFruit
-be/ehb/multec/groep5/SapMachine/CocoFruit.java
- be.ehb.multec.groep5.SapMachine.CocoFruit
-be/ehb/multec/groep5/SapMachine/AnanaFruit.java
- be.ehb.multec.groep5.SapMachine.AnanaFruit
-be/ehb/multec/groep5/SapMachine/PerzikFruit.java
- be.ehb.multec.groep5.SapMachine.PerzikFruit
-be/ehb/multec/groep5/SapMachine/MainSap.java
- be.ehb.multec.groep5.SapMachine.MainSap
-be/ehb/multec/groep5/SapMachine/AppelFruit.java
- be.ehb.multec.groep5.SapMachine.AppelFruit
-be/ehb/multec/groep5/SapMachine/CitroenFruit.java
- be.ehb.multec.groep5.SapMachine.CitroenFruit
+be/ehb/multec/groep5/sap/Ananassap.java
+ be.ehb.multec.groep5.sap.Ananassap
+be/ehb/multec/groep5/CondimentDecorator.java
+ be.ehb.multec.groep5.CondimentDecorator
+be/ehb/multec/groep5/sap/Appelsap.java
+ be.ehb.multec.groep5.sap.Appelsap
+be/ehb/multec/groep5/sap/Perziksap.java
+ be.ehb.multec.groep5.sap.Perziksap
+be/ehb/multec/groep5/Extra/Suiker.java
+ be.ehb.multec.groep5.Extra.Suiker
+be/ehb/multec/groep5/Extra/KleinFormaat.java
+ be.ehb.multec.groep5.Extra.KleinFormaat
+be/ehb/multec/groep5/Fruitsap.java
+ be.ehb.multec.groep5.Fruitsap
 be/ehb/multec/groep5/Menu.java
  be.ehb.multec.groep5.Menu
 be/ehb/multec/groep5/Extra/PlatWater.java
@@ -28,12 +28,20 @@ be/ehb/multec/groep5/Extra/ZonderSuiker.java
  be.ehb.multec.groep5.Extra.ZonderSuiker
 be/ehb/multec/groep5/Extra/Bruiswater.java
  be.ehb.multec.groep5.Extra.Bruiswater
-be/ehb/multec/groep5/CondimentDecorator.java
- be.ehb.multec.groep5.CondimentDecorator
-be/ehb/multec/groep5/Fruitsap.java
- be.ehb.multec.groep5.Fruitsap
-be/ehb/multec/groep5/Extra/Suiker.java
- be.ehb.multec.groep5.Extra.Suiker
+be/ehb/multec/groep5/SapMachine/SinaasapelFruit.java
+ be.ehb.multec.groep5.SapMachine.SinaasapelFruit
+be/ehb/multec/groep5/SapMachine/AnanaFruit.java
+ be.ehb.multec.groep5.SapMachine.AnanaFruit
+be/ehb/multec/groep5/SapMachine/PerzikFruit.java
+ be.ehb.multec.groep5.SapMachine.PerzikFruit
+be/ehb/multec/groep5/SapMachine/AppelFruit.java
+ be.ehb.multec.groep5.SapMachine.AppelFruit
+be/ehb/multec/groep5/SapMachine/CocoFruit.java
+ be.ehb.multec.groep5.SapMachine.CocoFruit
+be/ehb/multec/groep5/SapMachine/MainSap.java
+ be.ehb.multec.groep5.SapMachine.MainSap
+be/ehb/multec/groep5/SapMachine/CitroenFruit.java
+ be.ehb.multec.groep5.SapMachine.CitroenFruit
 be/ehb/multec/groep5/VruchtensapAutomaatGUI.java
  be.ehb.multec.groep5.VruchtensapAutomaatGUI
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$1
@@ -55,11 +63,3 @@ be/ehb/multec/groep5/VruchtensapAutomaatGUI.java
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$7
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$8
  be.ehb.multec.groep5.VruchtensapAutomaatGUI$9
-be/ehb/multec/groep5/Extra/KleinFormaat.java
- be.ehb.multec.groep5.Extra.KleinFormaat
-be/ehb/multec/groep5/sap/Perziksap.java
- be.ehb.multec.groep5.sap.Perziksap
-be/ehb/multec/groep5/sap/Appelsap.java
- be.ehb.multec.groep5.sap.Appelsap
-be/ehb/multec/groep5/sap/Ananassap.java
- be.ehb.multec.groep5.sap.Ananassap

@@ -1,2 +1,7 @@
-package TemplateMethod;public class TemplateMethodTest {
+package TemplateMethod;
+
+public class TemplateMethodTest {
+
+
+
 }

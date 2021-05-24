@@ -21,7 +21,7 @@ public abstract class MainSap {
     public void waterInvullen() {
         System.out.println("--------------------------------------");
 
-        System.out.println("water aan de tank toevoegen");
+        System.out.println("1. water aan de tank toevoegen");
     }
 
     //suiker
@@ -29,11 +29,11 @@ public abstract class MainSap {
 
         if(suiker == "met Suiker") {
 
-            System.out.println("suiker toevoegen");
+            System.out.println("2. suiker toevoegen");
 
         }else {
 
-            System.out.println("geen suiker toevoegen");
+            System.out.println("2. geen suiker toevoegen");
 
         }
     }
@@ -42,12 +42,12 @@ public abstract class MainSap {
         public void bruisWater(String bruis) {
             if(bruis == "bruiswater"){
 
-            System.out.println("co2 cilinder voorbereiden" +
+            System.out.println("3. co2 cilinder voorbereiden" +
                     "Bubbels toevoegen aan water");
 
             }else{
 
-                System.out.println("gewoon plat water gebruiken");
+                System.out.println("3. gewoon plat water gebruiken");
 
             }
         }
